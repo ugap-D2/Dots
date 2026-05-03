@@ -25,5 +25,7 @@ unset rc
 alias cat="bat"
 alias ls="eza -l --icons"
 
-# Commands that execute when terminal is opened
 fastfetch
+
+# Red Hat themed prompt
+PS1='\[\e[91m\]\u@\h\[\e[0m\]:\[\e[37m\]\w\[\e[0m\]\$ '
