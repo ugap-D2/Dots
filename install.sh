@@ -1,4 +1,7 @@
 #!/bin/bash
+set -e
+
+sudo dnf install kitty micro picom
 
 # copy kitty.conf and the kitty theme to kitty directory
 cp kitty.conf ~/.config/kitty
@@ -10,6 +13,9 @@ cp logo/RH-logo.png ~/Pictures/logos
 mkdir -p  ~/.config/micro/colorschemes
 cp rhel-theme.micro ~/.config/micro/colorschemes
 
+cp ~/.bashrc ~/.bashrc_backup
 cp .bashrc ~/
 
-echo "to use the micro colorscheme you will need to run micro then do ctrl+e and type set colorscheme rhel-theme"
+echo "Micro theme installed."
+echo "To enable it: open micro, press Ctrl+E, then type:"
+echo "set colorscheme rhel-theme"
