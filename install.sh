@@ -1,7 +1,10 @@
 #!/bin/bash
+
+# stops script if any command fails
 set -e
 
-sudo dnf install kitty micro picom
+# install all dependencies
+sudo dnf install -y kitty micro picom
 
 # copy kitty.conf and the kitty theme to kitty directory
 cp kitty.conf ~/.config/kitty
@@ -13,7 +16,13 @@ cp logo/RH-logo.png ~/Pictures/logos
 mkdir -p  ~/.config/micro/colorschemes
 cp rhel-theme.micro ~/.config/micro/colorschemes
 
-cp ~/.bashrc ~/.bashrc_backup
+# backup existing .bashrc if there is one present
+if [ -f ~/.bashrc ]; then
+    echo "Backing up existing .bashrc to ~/.bashrc.backup"
+    cp ~/.bashrc ~/.bashrc.backup
+fi
+
+# copy new .bashrc to home dir
 cp .bashrc ~/
 
 echo "Micro theme installed."
