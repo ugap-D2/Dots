@@ -16,3 +16,22 @@ This repository contains configs, scripts, themes, wallpapers references, and sm
 ├── kitty.conf          # Kitty terminal configuration
 ├── rhel-theme.conf     # Red Hat inspired Kitty theme
 └── rhel-theme.micro    # Red Hat inspired Micro editor theme
+```
+
+## Usage
+
+```bash
+
+git clone https://github.com/ugap-D2/dotfiles.git
+cd dotfiles
+chmod +x install.sh
+./install.sh
+```
+
+## Notes
+
+```text
+
+These files are made for my own Linux setup, so they may need small changes before working correctly on another system.
+The theme is mostly built around a simple Red Hat inspired look, using dark backgrounds with red and neutral colors.
+```
