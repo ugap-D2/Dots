@@ -2,7 +2,7 @@
 
 My personal Linux dotfiles and configuration files.
 
-This repository contains configs, scripts, themes, wallpapers references, and small setup files that I use on my systems. The goal is to keep my environment consistent and make it easier to set up a new Linux installation.
+This repository contains configs, scripts, themes, wallpapers links, and small setup files that I use on my systems. The goal is to keep my environment consistent and make it easier to set up a new Linux installation.
 
 ## Contents
 
@@ -31,7 +31,6 @@ chmod +x install.sh
 ## Notes
 
 ```text
-
 These files are made for my own Linux setup, so they may need small changes before working correctly on another system.
 The theme is mostly built around a simple Red Hat inspired look, using dark backgrounds with red and neutral colors.
 ```
