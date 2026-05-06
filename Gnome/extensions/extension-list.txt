@@ -1,0 +1,7 @@
+Extensions used
+---------------------------------------
+Dash to dock
+Open Bar
+Rounded Window Corners Reborn
+Vitals
+Weather or Not
