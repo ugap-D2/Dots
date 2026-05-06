@@ -64,4 +64,5 @@ echo -e "${MAGENTA}Micro theme installed${ENDCOLOR}"
 echo -e "${MAGENTA}To enable it: open micro and press ctrl+e then type:${ENDCOLOR}"
 echo -e "${MAGENTA}set colorscheme rhel-theme${ENDCOLOR}"
 
+echo ""
 echo -e "${GREEN}The install ended sucesfully${ENDCOLOR}"
