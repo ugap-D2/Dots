@@ -22,8 +22,8 @@ This repository contains configs, scripts, themes, wallpapers links, and small s
 
 ```bash
 
-git clone https://github.com/ugap-D2/dotfiles.git
-cd dotfiles
+git clone https://github.com/ugap-D2/Dots
+cd Dots
 chmod +x install.sh
 ./install.sh
 ```
