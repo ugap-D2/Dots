@@ -35,7 +35,8 @@ echo ""
 # copy kitty.conf and the kitty theme to kitty directory
 echo -e "${GREEN}Copying kitty configuration files to kitty directory...${ENDCOLOR}"
 echo ""
-cp kitty.conf ~/.config/kitty
+mkdir -p .config/kitty/
+cp kitty.conf ~/.config/kitty/
 cp rhel-theme.conf ~/.config/kitty
 echo -e "${GREEN}Copying logo for kitty terminal...${ENDCOLOR}"
 echo ""
