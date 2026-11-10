@@ -23,7 +23,7 @@ unset rc
 
 # Aliases
 alias cat="bat"
-alias ls="eza -l --icons"
+alias ls="eza -l --icons auto"
 
 fastfetch
 
